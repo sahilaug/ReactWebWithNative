@@ -30,10 +30,6 @@ export default class ReactWebWithNative extends Component {
           </Provider>
       );
   }
-
- /* render() {
-      return <View><Text>Hello</Text></View>
-  }*/
 }
 
 AppRegistry.registerComponent('ReactWebWithNative', () => ReactWebWithNative);

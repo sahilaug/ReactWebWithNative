@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { actions } from '../../common/redux/Actions';
+
 import {
     Text,
     View
@@ -10,11 +13,22 @@ class App extends Component {
         return (
             <View>
                 <Text>
-                    Helloooeee
+                    {this.props.data}
                 </Text>
             </View>
         );
     }
 }
 
-export default App;
+const mapStateToProps = (state) => (
+    {
+        data: state.appReducer
+    }
+);
+
+const AppComponent = connect(
+    mapStateToProps,
+    actions
+)(App);
+
+export default AppComponent;
