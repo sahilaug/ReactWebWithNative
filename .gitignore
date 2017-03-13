@@ -53,4 +53,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 
-web/build/
+web/web-build/

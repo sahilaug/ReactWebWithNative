@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { actions } from '../../common/redux/Actions';
+import { Card } from 'nachos-ui';
 
 import {
     Text,
@@ -12,6 +13,7 @@ class App extends Component {
     render() {
         return (
             <View>
+                <Card footerContent={"This is just demo for UI"} />
                 <Text>
                     {this.props.data}
                 </Text>
