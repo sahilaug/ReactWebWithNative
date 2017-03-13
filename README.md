@@ -7,4 +7,5 @@ Ideally, redux reducers should contain business logic for the app and the compon
 * React-Native
 * Redux
 * ImmutableJS
-* Bulmaio - for web styling
+* [Bulma-io](http://bulma.io/) - for web styling
+* [Nacho-ui](https://avocode.com/nachos-ui/docs/#!/Showcase/Introduction) - for some pre-styled mobile components
