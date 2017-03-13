@@ -14,6 +14,7 @@ class App extends Component {
         return (
             <View>
                 <Card footerContent={"This is just demo for UI"} />
+                <Card footerContent={"The following data is coming from a common reducer"} />
                 <Text>
                     {this.props.data}
                 </Text>
