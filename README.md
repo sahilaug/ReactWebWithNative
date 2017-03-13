@@ -9,3 +9,7 @@ Ideally, redux reducers should contain business logic for the app and the compon
 * [ImmutableJS](https://facebook.github.io/immutable-js/) - for immutable data structures
 * [Bulma-io](http://bulma.io/) - for web styling
 * [Nacho-ui](https://avocode.com/nachos-ui/docs/#!/Showcase/Introduction) - for some pre-styled mobile components
+
+**Start**
+* `npm run start-web-server` to start the web app on "localhost:3000"
+* `npm run start-ios` to start the ios app
